@@ -1,0 +1,9 @@
+.nov{
+text-align: center;
+}
+
+.main-class{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
