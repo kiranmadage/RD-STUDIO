@@ -1,0 +1,32 @@
+
+.img{
+    height: 600px;
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(214, 205, 222);
+}
+.nimg{
+    height: 70px;
+    border-radius: 10px;
+
+}
+
+.main-card{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+    
+}
+
+.text{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+font-size: large;
+    text-align: center;
+}
+.back{
+    background-color:rgb(171, 171, 184);
+    
+}

@@ -4,9 +4,132 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./../style/home.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-    <h1>design</h1>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <div>
+
+        <div>
+            <nav class=" back navbar navbar-expand-lg navbar-light  position-fixed top-0 nav" style="z-index:100;width:100%">
+                <div class=" container-fluid">
+                  <img class=" ms-5 nimg navbar-brand" src="./../imges/navhome.jpg" alt="">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="ms-5 nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="ms-5 nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="ms-5 nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Rooms
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class=" ms-5 nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+
+        </div>
+
+        <div>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./../imges/home1.jpg" class=" img d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./../imges/home2.webp" class=" img d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./../imges/home3.webp" class=" img d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="b
+                utton" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+        </div> <hr>
+        <div>
+          <h1 data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000">DESIGN SCHOOL</h1> <hr>
+          <div class="main-card ">
+            <div data-aos="fade-up"
+             data-aos-duration="3000" class="card m-4" style="width: 400px;">
+              <img src="./../imges/indian home.jpg" class=" card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text">Lighten Up a Room With Woven Cane</p>
+                <p class="card-text">In this elegant mudroom designed by Ashley Montgomery, the caned cabinet fronts serve practical and decorative purposes. They "provide airflow" to cabinets that hold farm clothes, boots, hats, and gloves, and their natural color breaks up the green woodwork. Such high-traffic areas can feel cluttered, but thoughtful details like caning can help calm the chaos.</p>
+              </div>
+            </div>
+
+            <div data-aos="fade-up"
+             data-aos-duration="3000" class="card m-4 " style="width: 400px;">
+              <img src="./../imges/industrial home.jpg" class=" card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text">Combine Strong Colors and Prints</p>
+                <p class="card-text">While the concept might seem to clash, this bedroom designed by Leah Ring of Another Human includes rich colors and prints from patchwork textiles to ceramic items and paint, so it's only fitting that the artwork is multidimensional and unique too. "The bedroom gets great light throughout the day, so we wanted to go for a peachy color on the walls</p>
+              </div>
+              
+            </div>
+          </div><hr>
+          <div class="main-card">
+            <div data-aos="fade-up"
+            data-aos-duration="3000" class="card m-4" style="width: 400px;">
+              <img src="./../imges/home4.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text">Add Charm With a Cabinet Skirt</p>
+                <p class="card-text">Meta Coleman was inspired by tile and color to give a California kitchen a refresh. She borrowed square footage from the living room to build this bright walk-in pantry. It's complete with plenty of storage, tons of countertop space, and adorable cabinet skirts that soften the room.</p>
+              </div>
+            </div>
+
+            <div data-aos="fade-up"
+            data-aos-duration="3000" class="card m-4 " style="width: 400px;">
+              <img src="./../imges/small-living home.jpg" class=" card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text">Don't Skimp on the Sofa</p>
+                <p class="card-text">Put your money into a comfortable, well-made sofa that you'll have forever. You don't have to deny yourself that expensive designer fabric you love—just put it on something small, like a pillow." —Krista Ewart</p>
+              </div>
+            </div>
+          </div><hr>
+          
+          
+        </div>
+
+    </div>
     
 </body>
 </html>
