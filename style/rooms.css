@@ -1,1 +1,11 @@
+body{
+    padding: 15px;
+}
 
+.images{
+     width:1500px;
+}
+
+.paragraph{
+    background-color: rgb(186, 172, 199);
+}
