@@ -9,6 +9,12 @@
     margin-top: 150px;
     padding: 50px;
 }
+@media screen and (max-width:200px) {
+    .main{
+        flex-wrap: wrap;
+    }
+    
+}
 
 
 
