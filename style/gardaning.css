@@ -34,10 +34,9 @@ text-align: center;
 .anu{
     display: block;
     height: 500px;
-    weight:100%;
     margin-left: 170px;
 }
-h1{
+nav{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(210,203,218);
