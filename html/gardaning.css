@@ -1,0 +1,75 @@
+.nov{
+text-align: center;
+}
+
+.main-class{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:300px) {
+
+    .main-class{
+        flex-wrap: wrap;
+    }
+}
+.mk-class{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+
+    
+}
+@media screen and (max-width:300px){
+  .mk-class{
+    flex-wrap: wrap;
+  }  
+}
+.img{
+    margin-left: 30px;
+}
+.nov1{
+text-align: center;
+}
+.anu{
+    display: block;
+    height: 500px;
+    margin-left: 170px;
+}
+nav{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(210,203,218);
+}
+.nimg{
+    height: 70px;
+    width: 70px;
+    border-radius: 20px;
+
+}
+.fut{
+    background-color: rgb(210,203,218);
+    margin-top: 40px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.fimg{
+    border-radius: 30px;
+    height: 250px;
+
+}
+.icard{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    margin-top: 30PX;
+    transition: 1s;
+}
+.icard:hover{
+    box-shadow: 4px 1px 2px 2px rgb(126, 118, 118);
+    border-radius: 50%;
+    transform: scale(1.1);
+}
