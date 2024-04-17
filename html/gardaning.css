@@ -36,7 +36,7 @@ text-align: center;
     height: 500px;
     margin-left: 170px;
 }
-h1{
+nav{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(210,203,218);
@@ -54,9 +54,11 @@ h1{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    width: 100%;
 }
 .fimg{
     border-radius: 30px;
+    height: 250px;
 
 }
 .icard{
