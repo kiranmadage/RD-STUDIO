@@ -96,3 +96,8 @@ h1{
 .bag{
     background-color: rgb(210,203,218);
 }
+.cimg{
+    height: 70px;
+    width: 70px;
+    border-radius: 20px;
+}
