@@ -16,9 +16,7 @@
     .mk-class{
         display: flex;
         justify-content:space-evenly;
-        flex-wrap: wrap;
-    
-        
+        flex-wrap: wrap;  
     }
     @media screen and (max-width:300px){
       .mk-class{
@@ -76,4 +74,13 @@
     }
     .bimg{
         margin-left: 100px;
+    }
+
+    .mainid{
+        transition: 2s;
+    }
+
+    .mainid:hover{
+        transform: scale(1.1);
+        box-shadow: 0px 0px 3px 3px rgb(175, 173, 173);
     }
